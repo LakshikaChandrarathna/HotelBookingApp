@@ -1,4 +1,5 @@
-import { User } from "../models/User.js";
+import User from "../models/User.js";
+
 
 //middleware to check if user is authenticated
 export const protect = async (req,res,next)=>{
